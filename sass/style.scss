@@ -1,0 +1,256 @@
+@import "./variebles";
+@import "./config";
+
+nav {
+  // position: relative;
+  .navbar {
+    width: 100%;
+    display: flex;
+
+    .first-nav {
+      position: fixed;
+      display: flex;
+      background-color: $balck-bg;
+      width: 100%;
+      padding: 0.4em 1em;
+
+      .left-nav {
+        width: 50%;
+
+        i {
+          font-size: 17px;
+          padding: 0.3em 0.5em 0 0;
+        }
+      }
+
+      .right-nav {
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+        text-align: center;
+
+        button {
+          color: $txt-1-color;
+          font-size: 0.9rem;
+          font-weight: 500;
+          padding: 0.4em 1.2em;
+          border: 1px solid $txt-1-color;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+
+  .second-nav {
+    width: 100%;
+    background-color: $txt-1-color;
+    margin-top: 2.7em;
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1em 0;
+    }
+    .right-nav {
+      padding: 0 4em 0 0;
+      ul {
+        display: flex;
+        color: $txt-3-color;
+        font-size: 0.9rem;
+
+        :first-child {
+          background: $pink-bg;
+          color: $txt-1-color;
+          padding: 0.6em 0.8em;
+          border-radius: 2px;
+        }
+        li {
+          padding: 0.5em 0.6em;
+
+          :first-child {
+            background: $pink-bg;
+          }
+        }
+      }
+    }
+  }
+}
+
+main {
+  .section-1-bg {
+    background: url(../uploads/bg-img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    width: 100%;
+
+    .section-1 {
+      // position: relative;
+      height: 100%;
+      display: flex;
+      color: $txt-1-color;
+      padding: 8em 0 8em 5em;
+
+      .content {
+        width: 55%;
+
+        h1 {
+          font-size: 4em;
+          font-family: "barlow-bold";
+        }
+
+        p {
+          padding-top: 1em;
+        }
+
+        .btn {
+          padding-top: 3em;
+          display: flex;
+          gap: 2em;
+
+          button {
+            background: $balck-bg;
+            padding: 0.7em 2em;
+            border-radius: 5px;
+            border: 1px solid $txt-1-color;
+            font-size: 1rem;
+            text-align: center;
+
+            i {
+              padding-right: 0.2em;
+            }
+            // font-weight: 700;
+          }
+        }
+      }
+      .picture {
+        display: flex;
+        width: 45%;
+        position: relative;
+
+        .iphone-1 {
+          width: 120%;
+          height: auto;
+          position: absolute;
+          right: 9%;
+          z-index: 2;
+        }
+
+        .iphone-2 {
+          width: 110%;
+          height: auto;
+          position: absolute;
+          right: -13%;
+          bottom: -110%;
+          z-index: 1;
+        }
+
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  .section-2-bg {
+    // height: 500px;
+    margin: 0 0 4em 0;
+
+    .section-2 {
+      .content-1 {
+        text-align: center;
+        padding: 6em 0 0 0;
+
+        h2 {
+          font-size: 2rem;
+          font-weight: 700;
+        }
+
+        p {
+          font-weight: 500;
+        }
+      }
+
+      .content-2 {
+        display: flex;
+        margin-bottom: 3em;
+        padding: 4em 0 10em 0;
+
+        i {
+          color: $txt-3-color;
+        }
+
+        .column-left,
+        .column-right {
+          padding-top: 0.5em;
+
+          ul {
+            li {
+              display: flex;
+              padding-top: 2.4em;
+
+              p {
+                font-size: 0.8rem;
+                color: $txt-2-color;
+                padding-top: 1em;
+              }
+
+              i {
+                background: $pink-bg;
+                padding: 1em;
+                color: $txt-1-color;
+                font-size: 1.2rem;
+                border-radius: 5px;
+              }
+            }
+          }
+        }
+
+        .column-right {
+          flex: 1;
+
+          ul {
+            li {
+              justify-content: start;
+            }
+          }
+          .content {
+            padding-left: 1em;
+          }
+        }
+
+        .column-middle {
+          flex: 1;
+          background: url(../images/phonebg.jpg) center top no-repeat;
+          background-size: 65%;
+          height: 515px;
+          position: relative;
+
+          .pic {
+            width: 58%;
+            position: absolute;
+            right: 21.5%;
+            top: 11%;
+            height: auto;
+          }
+        }
+
+        .column-left {
+          flex: 1;
+          
+          ul {
+            li {
+              justify-content: end;
+            }}
+
+          .content {
+            padding-right: 1em;
+            text-align: end;
+          }
+        }
+      }
+    }
+  }
+}

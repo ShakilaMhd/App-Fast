@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+body {
+  font-family: "barlow-regular", sans-serif;
+  line-height: 1.4;
+}
+
+p {
+  color: $txt-2-color;
+}
+img {
+  width: 100%;
+}
+
+i {
+  color: $txt-1-color;
+}
+
+button {
+  display: block;
+  background: $pink-bg;
+  color: $txt-1-color;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}

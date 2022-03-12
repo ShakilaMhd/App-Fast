@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+body {
+  font-family: "barlow-regular", sans-serif;
+  line-height: 1.4;
+}
+
+p {
+  color: #818181;
+}
+
+img {
+  width: 100%;
+}
+
+i {
+  color: #ffffff;
+}
+
+button {
+  display: block;
+  background: #AD1457;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+nav .navbar {
+  width: 100%;
+  display: flex;
+}
+nav .navbar .first-nav {
+  position: fixed;
+  display: flex;
+  background-color: #121212;
+  width: 100%;
+  padding: 0.4em 1em;
+}
+nav .navbar .first-nav .left-nav {
+  width: 50%;
+}
+nav .navbar .first-nav .left-nav i {
+  font-size: 17px;
+  padding: 0.3em 0.5em 0 0;
+}
+nav .navbar .first-nav .right-nav {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  text-align: center;
+}
+nav .navbar .first-nav .right-nav button {
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.4em 1.2em;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+nav .second-nav {
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 2.7em;
+}
+nav .second-nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0;
+}
+nav .second-nav .right-nav {
+  padding: 0 4em 0 0;
+}
+nav .second-nav .right-nav ul {
+  display: flex;
+  color: #1f1f1f;
+  font-size: 0.9rem;
+}
+nav .second-nav .right-nav ul :first-child {
+  background: #AD1457;
+  color: #ffffff;
+  padding: 0.6em 0.8em;
+  border-radius: 2px;
+}
+nav .second-nav .right-nav ul li {
+  padding: 0.5em 0.6em;
+}
+nav .second-nav .right-nav ul li :first-child {
+  background: #AD1457;
+}
+
+main .section-1-bg {
+  background: url(../uploads/bg-img.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  width: 100%;
+}
+main .section-1-bg .section-1 {
+  height: 100%;
+  display: flex;
+  color: #ffffff;
+  padding: 8em 0 8em 5em;
+}
+main .section-1-bg .section-1 .content {
+  width: 55%;
+}
+main .section-1-bg .section-1 .content h1 {
+  font-size: 4em;
+  font-family: "barlow-bold";
+}
+main .section-1-bg .section-1 .content p {
+  padding-top: 1em;
+}
+main .section-1-bg .section-1 .content .btn {
+  padding-top: 3em;
+  display: flex;
+  gap: 2em;
+}
+main .section-1-bg .section-1 .content .btn button {
+  background: #121212;
+  padding: 0.7em 2em;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  font-size: 1rem;
+  text-align: center;
+}
+main .section-1-bg .section-1 .content .btn button i {
+  padding-right: 0.2em;
+}
+main .section-1-bg .section-1 .picture {
+  display: flex;
+  width: 45%;
+  position: relative;
+}
+main .section-1-bg .section-1 .picture .iphone-1 {
+  width: 120%;
+  height: auto;
+  position: absolute;
+  right: 9%;
+  z-index: 2;
+}
+main .section-1-bg .section-1 .picture .iphone-2 {
+  width: 110%;
+  height: auto;
+  position: absolute;
+  right: -13%;
+  bottom: -110%;
+  z-index: 1;
+}
+main .section-1-bg .section-1 .picture img {
+  max-width: 100%;
+  height: auto;
+}
+main .section-2-bg {
+  margin: 0 0 4em 0;
+}
+main .section-2-bg .section-2 .content-1 {
+  text-align: center;
+  padding: 6em 0 0 0;
+}
+main .section-2-bg .section-2 .content-1 h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+main .section-2-bg .section-2 .content-1 p {
+  font-weight: 500;
+}
+main .section-2-bg .section-2 .content-2 {
+  display: flex;
+  margin-bottom: 3em;
+  padding: 4em 0 10em 0;
+}
+main .section-2-bg .section-2 .content-2 i {
+  color: #1f1f1f;
+}
+main .section-2-bg .section-2 .content-2 .column-left,
+main .section-2-bg .section-2 .content-2 .column-right {
+  padding-top: 0.5em;
+}
+main .section-2-bg .section-2 .content-2 .column-left ul li,
+main .section-2-bg .section-2 .content-2 .column-right ul li {
+  display: flex;
+  padding-top: 2.4em;
+}
+main .section-2-bg .section-2 .content-2 .column-left ul li p,
+main .section-2-bg .section-2 .content-2 .column-right ul li p {
+  font-size: 0.8rem;
+  color: #818181;
+  padding-top: 1em;
+}
+main .section-2-bg .section-2 .content-2 .column-left ul li i,
+main .section-2-bg .section-2 .content-2 .column-right ul li i {
+  background: #AD1457;
+  padding: 1em;
+  color: #ffffff;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+main .section-2-bg .section-2 .content-2 .column-right {
+  flex: 1;
+}
+main .section-2-bg .section-2 .content-2 .column-right ul li {
+  justify-content: start;
+}
+main .section-2-bg .section-2 .content-2 .column-right .content {
+  padding-left: 1em;
+}
+main .section-2-bg .section-2 .content-2 .column-middle {
+  flex: 1;
+  background: url(../images/phonebg.jpg) center top no-repeat;
+  background-size: 65%;
+  height: 515px;
+  position: relative;
+}
+main .section-2-bg .section-2 .content-2 .column-middle .pic {
+  width: 58%;
+  position: absolute;
+  right: 21.5%;
+  top: 11%;
+  height: auto;
+}
+main .section-2-bg .section-2 .content-2 .column-left {
+  flex: 1;
+}
+main .section-2-bg .section-2 .content-2 .column-left ul li {
+  justify-content: end;
+}
+main .section-2-bg .section-2 .content-2 .column-left .content {
+  padding-right: 1em;
+  text-align: end;
+}
+
+/*# sourceMappingURL=style.css.map */
