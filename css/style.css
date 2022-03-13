@@ -527,6 +527,7 @@ main .section-9-bg {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   color: #ffffff;
   text-align: center;
   height: 556px;
