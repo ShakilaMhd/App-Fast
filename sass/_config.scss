@@ -11,8 +11,13 @@ ul li {
 body {
   font-family: "barlow-regular", sans-serif;
   line-height: 1.4;
+  overflow: visible;
+  overflow-x: hidden;
 }
 
+h2 {
+  font-family: barlow-medium;
+}
 p {
   color: $txt-2-color;
 }
@@ -34,3 +39,4 @@ button {
   max-width: 1100px;
   margin: 0 auto;
 }
+

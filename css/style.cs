@@ -384,7 +384,7 @@ main .section-6 .content-2 {
 }
 main .section-6 .content-2 .cards {
   display: flex;
-  justify-content: space-around;
+  gap: 1.5em;
 }
 main .section-6 .content-2 .cards .card {
   width: 30%;
@@ -465,9 +465,6 @@ main .section-7-bg .section-7 .content .square p {
   display: block;
   color: #ffffff;
 }
-main .section-8 {
-  margin-bottom: 6em;
-}
 main .section-8 .content-1 {
   text-align: center;
 }
@@ -481,15 +478,14 @@ main .section-8 .content-2 {
 }
 main .section-8 .content-2 .cards {
   display: flex;
-  justify-content: space-around;
+  gap: 2em;
 }
 main .section-8 .content-2 .cards .card {
-  width: 90%;
-  padding: 1em;
+  padding: 1.5em;
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
 }
 main .section-8 .content-2 .cards .card p {
-  font-size: 0.9em;
+  font-size: 0.8em;
   padding-top: 1em;
 }
 main .section-8 .content-2 .cards .card .title {
@@ -501,87 +497,8 @@ main .section-8 .content-2 .cards .card .title i {
   font-size: 2rem;
   padding-right: 0.5em;
 }
-main .section-8 .content-2 .cards .card-1 .footer-card,
-main .section-8 .content-2 .cards .card-2 .footer-card,
-main .section-8 .content-2 .cards .card-3 .footer-card {
-  display: flex;
-  padding: 2em 0 0 1em;
-}
-main .section-8 .content-2 .cards .card-1 .footer-card .content,
-main .section-8 .content-2 .cards .card-2 .footer-card .content,
-main .section-8 .content-2 .cards .card-3 .footer-card .content {
-  padding-left: 1em;
-}
-main .section-8 .content-2 .cards .card-1 .footer-card .content small,
-main .section-8 .content-2 .cards .card-2 .footer-card .content small,
-main .section-8 .content-2 .cards .card-3 .footer-card .content small {
-  color: #818181;
-}
-main .section-8 .content-2 .cards .card-1 .footer-card img,
-main .section-8 .content-2 .cards .card-2 .footer-card img,
-main .section-8 .content-2 .cards .card-3 .footer-card img {
-  width: 12%;
-}
-main .section-9-bg {
-  background: url(../uploads/pr_bg.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  color: #ffffff;
-  text-align: center;
-  height: 556px;
-  margin-bottom: 8em;
-}
-main .section-9-bg .section-9 {
-  padding: 6em;
-}
-main .section-9-bg .section-9 .content-1 small {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 0.7rem;
-}
-main .section-9-bg .section-9 .content-1 h2 {
-  font-size: 2rem;
-}
-main .section-9-bg .section-9 .content-1 p {
-  color: #ffffff;
-  font-size: 0.9rem;
-  padding: 1em 0 3em 0;
-}
-main .section-9-bg .section-9 .content-2 .cards {
-  display: flex;
-  justify-content: center;
-  gap: 1.3em;
-}
-main .section-9-bg .section-9 .content-2 .cards .card {
-  display: flex;
-  align-items: center;
-  padding: 0.9em 2.5em;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 7px;
-}
-main .section-9-bg .section-9 .content-2 .cards .card i {
-  font-size: 3rem;
-}
-main .section-9-bg .section-9 .content-2 .cards .card .content {
-  padding-left: 1em;
-  text-align: left;
-}
-main .section-9-bg .section-9 .content-2 .cards .card .content h2 {
-  font-size: 1rem;
-  font-weight: lighter;
-}
-main .section-9-bg .section-9 .content-2 .cards .card .content h3 {
-  font-size: 1.5rem;
-  font-weight: lighter;
-}
-main .section-9-bg .content-3 {
-  height: 120px;
-  margin: 5em 0;
-  background-color: #AD1457;
-}
-main .section-9-bg .content-3 p {
-  color: #ffffff;
-  padding-top: 3em;
+main .section-8 .content-2 .cards .card .footer-card {
+  margin-top: 4em;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.cs.map */
