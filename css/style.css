@@ -527,10 +527,11 @@ main .section-9-bg {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   color: #ffffff;
   text-align: center;
   height: 556px;
-  margin-bottom: 8em;
+  margin-bottom: 5.5em;
 }
 main .section-9-bg .section-9 {
   padding: 6em;
@@ -582,6 +583,88 @@ main .section-9-bg .content-3 {
 main .section-9-bg .content-3 p {
   color: #ffffff;
   padding-top: 3em;
+}
+
+footer {
+  background-color: #201b25;
+  color: #ffffff;
+}
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  padding: 4em 0 6em 0;
+}
+footer .footer p,
+footer .footer ul {
+  color: #736e78;
+}
+footer .footer .content-1 {
+  width: 25%;
+}
+footer .footer .content-1 .logo img {
+  width: 60%;
+}
+footer .footer .content-1 .logo small {
+  display: block;
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0 5em 3em 5em;
+}
+footer .footer .content-2 {
+  width: 25%;
+  padding-left: 2em;
+}
+footer .footer .content-2 ul {
+  padding-top: 2em;
+}
+footer .footer .content-2 ul li {
+  padding: 1em 0 1em 0;
+  border-bottom: 0.5px solid rgba(115, 110, 120, 0.2);
+}
+footer .footer .content-2 ul li:last-child {
+  border: none;
+}
+footer .footer .content-3 {
+  width: 25%;
+  padding-left: 2em;
+}
+footer .footer .content-3 p {
+  padding: 2em 0 3em 0;
+}
+footer .footer .content-3 button {
+  padding: 1.5em 1em;
+  background-color: #120d17;
+  border: none;
+  color: #736e78;
+  font-size: 0.8rem;
+}
+footer .footer .content-3 button i {
+  font-size: 1rem;
+  color: rgba(115, 110, 120, 0.8);
+  padding-left: 0.7em;
+}
+footer .footer .content-4 {
+  width: 25%;
+  padding-left: 2em;
+}
+footer .footer .content-4 ul {
+  font-size: 0.9em;
+  padding-top: 2em;
+  color: #736e78;
+}
+footer .footer .content-4 ul li {
+  border-bottom: 0.5px solid rgba(115, 110, 120, 0.2);
+  padding: 0.5em 0 1em 0;
+}
+footer .footer .content-4 ul li i {
+  color: #736e78;
+  font-size: 0.9em;
+  padding-right: 0.4em;
+  border-right: 0.5px solid rgba(115, 110, 120, 0.2);
+}
+footer .footer .content-4 ul li:last-child {
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */
