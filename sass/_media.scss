@@ -1,0 +1,343 @@
+@media (max-width: 1024px) {
+  body {
+    .container {
+      max-width: 950px;
+    }
+    main {
+      .section-1 {
+        .content {
+          width: 50%;
+
+          h1 {
+            font-size: 3rem;
+          }
+        }
+      }
+
+      .section-3 {
+        height: 520px;
+        .work {
+          flex-wrap: wrap;
+
+          .content {
+            width: 50%;
+          }
+        }
+      }
+
+      .section-5 {
+        .content-left {
+          ul {
+            width: 40%;
+            flex-direction: column;
+          }
+
+          li:last-child {
+            display: none;
+          }
+        }
+
+        .content-right {
+          right: 16%;
+        }
+      }
+
+      .section-9-bg {
+        .content-3 {
+          margin: 2em 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  body {
+    .container {
+      width: 340px;
+    }
+
+    header {
+      nav {
+        .navbar {
+          .first-nav {
+            flex-direction: column;
+            align-items: center;
+            padding: 0.1em 0;
+            .right-nav,
+            .left-nav {
+              text-align: center;
+              justify-content: center;
+              margin: 0 auto;
+            }
+          }
+        }
+
+        .second-nav {
+          width: 100%;
+          height: 80px;
+          margin-top: 3.5em;
+
+          .container {
+            padding: 0;
+            padding-top: 1em;
+
+            .right-nav {
+              width: 10%;
+              height: 35px;
+              padding: 0;
+              background-color: $orange-bg;
+              border-radius: 3px;
+              text-align: center;
+
+              i {
+                color: $txt-1-color;
+                font-size: 1.5rem;
+                padding: 0.2em;
+              }
+
+              ul {
+                display: none;
+              }
+            }
+
+            .left-nav {
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+    main {
+      .section-1-bg {
+        .section-1 {
+          height: 350px;
+          padding: 0;
+
+          .content {
+            width: 100%;
+            padding: 4em 0;
+            text-align: center;
+            h1 {
+              font-size: 24px;
+              font-weight: lighter;
+            }
+
+            .btn {
+              justify-content: center;
+              button {
+                width: 35%;
+                height: 45px;
+                font-size: 14px;
+                padding: 0;
+              }
+            }
+          }
+          .picture {
+            display: none;
+          }
+        }
+      }
+
+      .section-2-bg {
+        // height: 2000px;
+        .section-2 {
+          .content-1 {
+            padding: 4em 0 0 0;
+          }
+
+          .content-2 {
+            flex-direction: column;
+
+            .column-left {
+              ul {
+                li {
+                  flex-direction: row-reverse;
+                  justify-content: flex-end;
+
+                  .content {
+                    padding-right: 0;
+                    padding-left: 1em;
+                    text-align: left;
+                  }
+                }
+              }
+            }
+
+            .column-middle {
+              flex: auto;
+              height: 450px;
+              margin: 3em 0 1em 0;
+            }
+
+            .column-right {
+            }
+          }
+        }
+      }
+
+      .section-3-bg {
+        height: auto;
+        margin: 0 0 5em 0;
+        .section-3 {
+          height: auto;
+          .work {
+            height: auto;
+            flex-direction: column;
+
+            .content {
+              width: 100%;
+            }
+          }
+        }
+      }
+
+      .section-4 {
+        margin-bottom: 4em;
+
+        .content-2 {
+          .cards {
+            img {
+              width: 100%;
+            }
+          }
+
+          #hide {
+            display: none;
+          }
+        }
+      }
+
+      .section-5-bg {
+        margin-bottom: 5em;
+
+        .section-5 {
+          flex-direction: column;
+          padding: 5em 0;
+
+          .content-left {
+            width: 100%;
+            padding: 0;
+
+            p {
+              font-size: 1.2rem;
+            }
+
+            ul {
+              width: 60%;
+
+              li {
+                font-size: 1rem;
+                text-align: left;
+              }
+              li:last-child {
+                display: block;
+              }
+            }
+
+            .btn {
+              button {
+                padding: 0.8em;
+                font-size: 14px;
+              }
+            }
+          }
+
+          .content-right {
+            width: 70%;
+            position: relative;
+            right: 20%;
+          }
+        }
+      }
+
+      .section-6 {
+        .content-1 {
+          h2 {
+            font-size: 28px;
+          }
+        }
+
+        .content-2 {
+          .cards {
+            flex-wrap: wrap;
+            gap: 30px;
+
+            .card {
+              width: 100%;
+            }
+          }
+        }
+      }
+
+      .section-7-bg {
+        margin-bottom: 5em;
+        .section-7 {
+          .content {
+            flex-direction: column;
+            gap: 30px;
+          }
+        }
+      }
+
+      .section-8 {
+        .content-1 {
+          h2 {
+            font-size: 28px;
+          }
+        }
+        .content-2 {
+          .cards {
+            flex-direction: column;
+
+            align-items: center;
+
+            .card-1,
+            .card-2,
+            .card-3 {
+              width: 110%;
+              padding-left: 2em;
+
+              .card {
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+
+      .section-9-bg {
+        height: 700px;
+        margin-bottom: 0;
+        .section-9 {
+          padding: 4em 0;
+
+          .content-2 {
+            .cards {
+              flex-wrap: wrap;
+              .card {
+                width: 100%;
+              }
+            }
+          }
+        }
+        .content-3 {
+          display: none;
+        }
+      }
+    }
+
+    footer {
+      .footer {
+        flex-direction: column;
+
+        .content-1,
+        .content-2,
+        .content-3,
+        .content-4 {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

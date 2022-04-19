@@ -89,7 +89,6 @@ main {
     width: 100%;
 
     .section-1 {
-      // position: relative;
       height: 100%;
       display: flex;
       color: $txt-1-color;
@@ -99,12 +98,13 @@ main {
         width: 55%;
 
         h1 {
-          font-size: 4em;
+          font-size: 4rem;
           font-family: "barlow-bold";
         }
 
         p {
           padding-top: 1em;
+          color: $txt-1-color;
         }
 
         .btn {
@@ -659,7 +659,7 @@ main {
     }
     .content-3 {
       height: 120px;
-      margin: 5em 0;
+      margin: 5.1em 0;
       background-color: $pink-bg;
 
       p {
@@ -737,6 +737,7 @@ footer {
         border: none;
         color: $txt-4-color;
         font-size: 0.8rem;
+        cursor: pointer;
 
         i {
           font-size: 1rem;
@@ -762,7 +763,7 @@ footer {
           i {
             color: $txt-4-color;
             font-size: 0.9em;
-            padding-right: .4em;
+            padding-right: 0.4em;
             border-right: 0.5px solid rgba($txt-4-color, $alpha: 0.2);
           }
         }
@@ -774,3 +775,5 @@ footer {
     }
   }
 }
+
+@import "./media";
